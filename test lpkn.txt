@@ -1,0 +1,19 @@
+Buat program simulasi sepak bola, mengimplementasikan CRUD dan API
+
+ tabel:
+  klasemen : - poin
+     - nama team
+
+  pertandingan : home_team
+           away_team
+           score
+  
+
+ inputan = nama tim (home) ex: chelsea
+   nama tim (away) ex: arsenal
+   score ( home - away ) ex: 3 - 1 (format dapat disesuaikan dengan keinginan sendiri)
+ 
+ Setiap inputan pertandingan akan mengupdate point pada table klasemen
+ Jika menang maka mendapatkan 3 point, seri 1 point, kalah 0 point.
+ 
+ Buat api untuk menginput pertandingan, dan buat view untuk menampilkan data klasemen.
